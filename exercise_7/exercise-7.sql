@@ -25,7 +25,7 @@ INNER JOIN
       customer.address_id = address.address_id
 INNER JOIN
 	city
-      ON
-      	  address.city_id = city.city_id
+    ON
+      address.city_id = city.city_id
 
 WHERE city = 'Dundee'
